@@ -38,17 +38,28 @@ a{
 h1{
     font-weight: 278;
     font-size: 55px;
+    font-family: "Cormorant Garamond", serif;
 }
+
 
 .titre-h2{
 font-weight: 145;
 font-size: 45px;
+font-family: "Cormorant Garamond", serif;
+}
+
+.titre-h3{
+font-weight: 145;
+font-size: 30px;
+font-family: "Cormorant Garamond", serif;
 }
 
 .liste-ul{
     font-weight: 100;
     font-size: 25px;
 }
+
+
 
 /* ------------------------------
             COULEURS
@@ -102,6 +113,10 @@ font-size: 45px;
 .flex {
     display: flex;
     flex-wrap: wrap;
+}
+
+.colonne{
+    flex-direction: column;
 }
 
 .space-between{
@@ -179,6 +194,10 @@ font-size: 45px;
     margin-left: 16px;
 }
 
+.ml-60{
+    margin-left: 60px;
+}
+
 .mr-32{
     margin-right: 32px;
 }
@@ -192,6 +211,14 @@ font-size: 45px;
 
 .pb-16{
     padding-bottom: 16px;
+}
+
+.pl-16{
+    padding-left: 16px;
+}
+
+.pr-16{
+    padding-right: 16px;
 }
 
 .pt-16{
@@ -255,7 +282,7 @@ font-size: 45px;
 
  .card{
     background-color: white;
-    border: solid black;
+    border: solid #D8935C;
     padding: 15px 10px;
     width: 28%;
     border-radius: 6px;
@@ -265,7 +292,7 @@ font-size: 45px;
 
  .card-projet{
     background-color: white;
-    border: solid black;
+    border: solid #D8935C;
     padding: 15px 10px;
     width: 100%;
     border-radius: 15px;
@@ -288,3 +315,37 @@ font-size: 45px;
  .photo-border{
     border-radius: 200px;
  }
+
+ /* ------------------------------
+            BOUTON
+ ---------------------------------*/
+
+ .btn{
+    color: rgb(255, 255, 255);
+    background-color:#7a5b17;
+    border: #2E2A26;
+    border-radius: 18px;
+    padding: 10px 40px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: #4e2900;
+}
+
+.btn-white{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px 40px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.bnt-center{
+    display: inline-block;
+}
+

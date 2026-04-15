@@ -8,18 +8,18 @@
     <link rel="stylesheet" href="style-index.css">
 </head>
 
-<body class="color-princ">
+<body>
     <!-- Header -->
-    <header class="flex space-between color-white">
+    <header class="flex space-between color-princ">
 
         <img src="asset/architecte-interieur/image.png" alt="Logo" width="100">
-        <nav class="mt-16">
-            <a href="">Promesse</a>
-            <a href="">Services Proposées</a>
-            <a href="">Réalisation</a>
-            <a href="">Témoignages</a>
+        <nav>
+            <a href="" class="pr-16 pl-16">Promesse</a>
+            <a href="" class="pr-16 pl-16">Services Proposées</a>
+            <a href="" class="pr-16 pl-16">Réalisation</a>
+            <a href="#Témoignages" class="pr-16 pl-16">Témoignages</a>
             <!-- btn -->
-            <a href=""></a>
+            <a href="" class="btn">Contact</a>
         </nav>
 
     </header>
@@ -27,10 +27,12 @@
     <!-- Section 1 Accueil -->
     <section class="flex space-between container-1200 text-center">
         <div class="w-48 mt-128">
-            <h1>Une approche centrée <br>sur vos besoins et votre bien-être</h1>
-            <h4>Révéler le potentiel de chaque espace</h4>
-            <a href="">Prendre rendez-vous</a>
-            <a href="">Voir mes réalisations</a>
+            <h1 class="mt-64">Clémence Rivière Studio</h1>
+            <h4 class="mt-16 mb-16">Révéler le potentiel de chaque espace</h4>
+            <div>
+                <a href="" class="btn">Prendre rendez-vous</a>
+                <a href="" class="btn">Voir mes réalisations</a>
+            </div>
         </div>
 
         <img src="asset/architecte-interieur/Salon-beige.jpg" alt="Logo" width="504" height="439" class="w-48 mt-64">
@@ -53,7 +55,7 @@
                     <li>Un accompagnement complet, du croquis à la réception du chantier</li>
                 </ul>
                 <!-- btn -->
-                <a href="" class="text-center">Appel a l'action</a>
+                <a href="" class="text-center btn">Appel a l'action</a>
             </div>
         </div>
     </section>
@@ -72,16 +74,16 @@
                 <p> Repenser la circulation, les volumes et la lumière pour créer des intérieurs élégants, fonctionnels
                     et chaleureux.</p>
                 <!-- btn -->
-                <a href="">btn</a>
+                <a href="" class="btn ml-60">En savoir plus</a>
             </div>
 
             <div class="w-30  card">
                 <img src="asset/architecte-interieur/amenagement.png" alt="amenagement" width="100%">
                 <h4 class="mb-16 mt-16">Aménagement sur mesure</h4>
-                <p>Conception de mobilier intégré et d'espaces adaptés à vos besoins : bibliothèques, rangements,
-                    cuisines, bureaux...</p>
+                <p>Conception de mobilier intégré et d'espaces adaptés à vos besoins : bibliothèques, cuisines,
+                    bureaux...</p>
                 <!-- btn -->
-                <a href="">btn</a>
+                <a href="" class="btn ml-60">En savoir plus</a>
             </div>
 
             <div class="w-30 card">
@@ -90,7 +92,7 @@
                 <p>Sélection de matériaux, textures et couleurs pour harmoniser votre intérieur et lui donner une
                     identité unique.</p>
                 <!-- btn -->
-                <a href="">btn</a>
+                <a href="" class="btn ml-60">En savoir plus</a>
             </div>
 
         </div>
@@ -150,79 +152,78 @@
             <img src="asset/architecte-interieur/tem-rysh-F6-U5fGAOik-unsplash.jpg" alt="tem" class="w-48 img-border">
         </div>
 
-        </section>
+    </section>
 
-        <!-- Section 5 Témoignages -->
+    <!-- Section 5 Témoignages -->
 
-        <Section class="container-1200">
+    <Section  id="Témoignages"class="container-1200">
 
-            <h2 class="text-center titre-h2 pb-64 mt-64">Temoignages</h2>
+        <h2 class="text-center titre-h2 pb-64 mt-64">Temoignages</h2>
+        <!-- Card -->
+        <div class="flex space-between">
+            <div class="card-avis w-30">
+                <p>" Clémence a su repenser notre espace avec beaucoup d’intelligence et de goût. Le résultat est à la
+                    fois pratique et sublime. "</p>
+                <div class="flex mt-16">
+                    <img src="asset/architecte-interieur/photo-mathilde.jpg" alt="photo" width="60" height="60"
+                        class="photo-border mr-16">
+                    <p>Mathilde <br>Rénovation d'appartement</p>
+                </div>
+            </div>
+
             <!-- Card -->
-            <div class="flex space-between">
-                <div class="card-avis w-30">
-                    <p>" Clémence a su repenser notre espace avec beaucoup d’intelligence et de goût. Le résultat est à la
-                        fois pratique et sublime. "</p>
-                    <div class="flex mt-16">
-                        <img src="asset/architecte-interieur/photo-mathilde.jpg" alt="photo" width="60" height="60"
-                            class="photo-border mr-16">
-                        <p>Mathilde <br>Rénovation d'appartement</p>
-                    </div>
-                </div>
-
-                <!-- Card -->
-                <div class="card-avis w-30">
-                    <p>" Un vrai sens du détail et une belle écoute de nos besoins. Les meubles sur mesure sont parfaits
-                        et l’espace respire. "</p>
-                    <div class="flex mt-16">
-                        <img src="asset/architecte-interieur/Photo-Olivier.jpg" alt="photo" width="60" height="60" class="photo-border mr-16">
-                        <p>Olivier <br>Aménagement de bureau</p>
-                    </div>
-                </div>
-
-                <!-- Card -->
-                <div class="card-avis w-30">
-                    <p>" J’adore la nouvelle ambiance de mon salon : couleurs apaisantes, lumière retravaillée, et des
-                        matières nobles. "</p>
-                    <div class="flex mt-16">
-                        <img src="asset/architecte-interieur/Photo-Sonia.jpg" alt="photo" width="60" height="60" class="photo-border mr-16">
-                        <p>Sonia <br>Décoration intérieure</p>
-                    </div>
+            <div class="card-avis w-30">
+                <p>" Un vrai sens du détail et une belle écoute de nos besoins. Les meubles sur mesure sont parfaits
+                    et l’espace respire. "</p>
+                <div class="flex mt-16">
+                    <img src="asset/architecte-interieur/Photo-Olivier.jpg" alt="photo" width="60" height="60"
+                        class="photo-border mr-16">
+                    <p>Olivier <br>Aménagement de bureau</p>
                 </div>
             </div>
-        </Section>
 
-        <!-- Footer -->
-
-        <Footer>
-
-            <!-- Grande div -->
-
-            <div>
-                <h3>Prets à travailler ensemble ? </h3>
-                <p>Une idée, un projet, une envie de collaboration ? Contactez-nous, nous serons ravis d’en discuter et
-                    de
-                    voir
-                    comment avancer ensemble.
-                    Laissez votre contact téléphonique et je vous rappellerai.</p>
-                <nav>
-                    <a href=""><i></i></a>
-                    <a href=""><i></i></a>
-                    <a href=""><i></i></a>
-                    <a href=""><i></i></a>
-                </nav>
+            <!-- Card -->
+            <div class="card-avis w-30">
+                <p>" J’adore la nouvelle ambiance de mon salon : couleurs apaisantes, lumière retravaillée, et des
+                    matières nobles. "</p>
+                <div class="flex mt-16">
+                    <img src="asset/architecte-interieur/Photo-Sonia.jpg" alt="photo" width="60" height="60"
+                        class="photo-border mr-16">
+                    <p>Sonia <br>Décoration intérieure</p>
+                </div>
             </div>
+        </div>
+    </Section>
 
-            <!-- Grande div -->
+    <!-- Footer -->
 
-            <div>
-                <input type="text" name="Nom" id="Nom" placeholder="Nom">
-                <input type="tel" name="tel" id="tel" placeholder="Téléphone">
-                <input type="email" name="email" id="email" placeholder="Email">
-                <textarea name="message" id="message" placeholder="Message"></textarea>
-                <input type="submit" value="Envoyer">
-            </div>
+    <Footer class="flex space-between container-1200 mt-64 mb-64">
 
-        </Footer>
+        <!-- Grande div -->
+
+        <div class="w-48">
+            <h3 class="titre-h3 mt-32">Prets à travailler ensemble ? </h3>
+            <p class="mt-16">Une idée, un projet, une envie de collaboration ? Contactez-nous, nous serons ravis d’en
+                discuter et de voir comment avancer ensemble. Laissez votre contact téléphonique et je vous rappellerai.</p>
+            <nav>
+                <a href=""><i></i></a>
+                <a href=""><i></i></a>
+                <a href=""><i></i></a>
+                <a href=""><i></i></a>
+            </nav>
+        </div>
+
+        <!-- Grande div -->
+
+        <div class="w-48 mt-64 flex colonne">
+            <input type="text" name="Nom" id="Nom" placeholder="Nom">
+            <input type="tel" name="tel" id="tel" placeholder="Téléphone">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <input type="submit" value="Envoyer">
+        </div>
+
+    </Footer>
 
 </body>
 
