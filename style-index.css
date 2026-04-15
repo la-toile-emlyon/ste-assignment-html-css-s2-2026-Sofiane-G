@@ -142,6 +142,10 @@ font-size: 45px;
     margin-bottom: 16px;
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
+
 .mt-32{
     margin-top: 32px;
 }
@@ -165,6 +169,22 @@ font-size: 45px;
 
 .mb-128{
     margin-bottom: 128px;
+}
+
+.mr-16{
+    margin-right: 16px;
+}
+
+.ml-16{
+    margin-left: 16px;
+}
+
+.mr-32{
+    margin-right: 32px;
+}
+
+.ml-32{
+    margin-left: 32px;
 }
 
 /* padding */
@@ -228,3 +248,43 @@ font-size: 45px;
     padding-left: 20px;
     padding-right: 20px;
 }
+
+/* ------------------------------
+            CARDS
+ ---------------------------------*/
+
+ .card{
+    background-color: white;
+    border: solid black;
+    padding: 15px 10px;
+    width: 28%;
+    border-radius: 6px;
+    font-family: "inter", sans-serif;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.553);
+ }
+
+ .card-projet{
+    background-color: white;
+    border: solid black;
+    padding: 15px 10px;
+    width: 100%;
+    border-radius: 15px;
+    font-family: "inter", sans-serif;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.553);
+ }
+
+  .card-avis{
+    background-color: white;
+    padding: 15px 10px;
+    border-radius: 15px;
+    font-family: "inter", sans-serif;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.553);
+  }
+
+ .img-border{
+    border-radius: 15px;
+ }
+
+ .photo-border{
+    border-radius: 200px;
+ }
